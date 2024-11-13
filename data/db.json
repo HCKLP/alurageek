@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Combo Teclado y Mouse Logitech Mk270 Inalambrico",
+      "precio": 109900,
+      "imagen": "https://teknopolis.vtexassets.com/arquivos/ids/213576/Combo-Teclado-y-Mouse-Logitech--Mk270-Inalambrico-1.jpg?v=638654865770570000"
+    },
+    {
+      "id": "2",
+      "nombre": "Audífonos de Diadema Energy Sistem",
+      "precio": 225900,
+      "imagen": "https://teknopolis.vtexassets.com/arquivos/ids/211781/Headphones-BT-Travel-6-ANC-Black-1.jpg?v=638386897732130000"
+    },
+    {
+      "id": "3",
+      "nombre": "Parlante Energy Sistem Urban",
+      "precio": 207900,
+      "imagen": "https://teknopolis.vtexassets.com/arquivos/ids/211826/Parlante-Energy-Sistem-Urban--Bluetooth-5.0-Negro-1.jpg?v=638387105660100000"
+    },
+    {
+      "id": "4",
+      "nombre": "Reloj Inteligente + Audífonos Wattana WT-SMB-01",
+      "precio": 99900,
+      "imagen": "https://teknopolis.vtexassets.com/arquivos/ids/211075/20409-1.png?v=638334316142470000"
+    },
+    {
+      "id": "6",
+      "nombre": "Celular Oppo Reno 11 5G 12GB 256GB",
+      "precio": 2169900,
+      "imagen": "https://teknopolis.vtexassets.com/arquivos/ids/212486/Celular-Oppo-Reno-11-5G-12GB-256GB-Verde--Agua-6.jpg?v=638448115910700000"
+    },
+    {
+      "id": "1a41",
+      "nombre": "Celular Oppo A58 8GB 256GB",
+      "precio": 650000,
+      "imagen": "https://teknopolis.vtexassets.com/arquivos/ids/212458/Celular-Oppo-A58-8GB-256GB-Verde-1.jpg?v=638442195806000000"
+    }
+  ]
+}

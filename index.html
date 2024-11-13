@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Tags básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+
+    <!-- Vinculación del archivo CSS principal -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <header class="header">
+        <!-- Logo de AluraGeek -->
+        <div class="logo">
+            <img src="image/logo.png" alt="AluraGeek Logo">
+        </div>
+    </header>
+
+    <!-- Sección introductoria o "cumbre" -->
+    <section class="cumbre"></section>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <!-- Contenedor de productos, con estilo de tarjeta y opción de scroll interno -->
+        <div class="productos-container">
+            <section class="productos-section">
+                <h1>Mis Productos</h1>
+                <div class="productos" id="productos">
+                    <!-- Mensaje predeterminado en caso de no haber productos -->
+                    <p class="no-productos">No se han agregado productos</p>
+                    <!-- Espacio donde los productos se añadirán dinámicamente mediante JavaScript -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Sección para agregar nuevos productos -->
+        <aside class="agregar-producto">
+            <h1>Agregar Producto</h1>
+            <!-- Formulario para la adición de productos -->
+            <form id="productForm">
+                <!-- Campos del formulario para el nombre, precio y URL de la imagen del producto -->
+                <input type="text" id="nombre" placeholder="Nombre del producto" required>
+                <input type="number" id="precio" placeholder="Precio" required>
+                <input type="url" id="imagen" placeholder="URL de la imagen" required>
+                
+                <!-- Botones para enviar o limpiar el formulario -->
+                <div class="botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </aside>
+    </main>
+
+    <!-- Pie de página con información del sitio y derechos de autor -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Logo de AluraGeek en el footer -->
+            <img src="image/logo.png" alt="AluraGeek Logo">
+            <!-- Información de derechos de autor y autor -->
+            <p>Harry Lozano P</p>
+            <p>Alura Latam - 2024</p>
+        </div>
+    </footer>
+
+    <!-- Archivos de JavaScript principales, importados como módulos -->
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/scroll.js"></script>
+</body>
+</html>
